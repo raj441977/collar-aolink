@@ -1,37 +1,58 @@
-/*
-    _____________________________.
-   |;;|                      |;;||     Copyright (c) 2014 - 2016:
-   |[]|----------------------|[]||
-   |;;|       AO  Link       |;;||     Medea Destiny, XenHat Liamano,
-   |;;|       161029.2       |;;||     Wendy Starfall, Sumi Perl,
-   |;;|----------------------|;;||     Ansariel Hiller, Garvin Twine,
-   |;;|   www.opencollar.at  |;;||     stawberri et al.
-   |;;|----------------------|;;||
-   |;;|______________________|;;||
-   |;;;;;;;;;;;;;;;;;;;;;;;;;;;;||     This script is free software:
-   |;;;;;;;_______________ ;;;;;||
-   |;;;;;;|  ___          |;;;;;||     You can redistribute it and/or
-   |;;;;;;| |;;;|         |;;;;;||     modify it under the terms of the
-   |;;;;;;| |;;;|         |;;;;;||     GNU General Public License as
-   |;;;;;;| |;;;|         |;;;;;||     published by the Free Software
-   |;;;;;;| |___|         |;;;;;||     Foundation, version 2.
-   \______|_______________|_____||
-    ~~~~~~^^^^^^^^^^^^^^^^^^~~~~~~     www.gnu.org/licenses/gpl-2.0
+/*------------------------------------------------------------------------------
 
-github.com/VirtualDisgrace/opencollar/blob/master/src/spares/.aolink.lsl
+ AO Link, Build 12
 
-Right-click and edit your AO HUD, then navigate to the Contents tab of
-the Build Menu. Once the contents finish loading, drag and drop this
-script from your Inventory into the Contents tab of your AO HUD. If the
-AO Link is compatible with your AO HUD, it will indicate so in the Chat.
+ Wendy's OpenCollar Distribution
+ https://github.com/wendystarfall/collar-aolink
 
-NOTE: Please be aware that some shops sell modified GPL licensed ZHAOII
-scripts in their AOs with closed permissions and without publishing the
-source code anywhere. If your AO reports having successfully linked but
-goes haywire chances are that this is such a case. This is very sad and
-the only thing you can do then is to remove the link with: /88 rm aolink
+--------------------------------------------------------------------------------
 
-*/
+ OpenCollar v3.844 - v3.998 (Wendy's OpenCollar API 3.9):
+
+ Copyright © 2014 Ansariel Hiller, Medea Destiny, Sumi Perl, Wendy Starfall,
+ XenHat Liamano
+
+ https://github.com/OpenCollar/opencollar/commits/master
+
+--------------------------------------------------------------------------------
+
+ OpenCollar v4.0.0 - v6.7.5 - Peanut build 9 (virtualdisgrace.com):
+
+ Copyright © 2015 Garvin Twine, Wendy Starfall
+ Copyright © 2016 Garvin Twine, stawberri, Wendy Starfall
+
+ https://github.com/VirtualDisgrace/opencollar/commits/master
+
+--------------------------------------------------------------------------------
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, see www.gnu.org/licenses/gpl-2.0
+
+--------------------------------------------------------------------------------
+
+ Right-click and edit your AO HUD, then navigate to the Contents tab of
+ the Build Menu. Once the contents finish loading, drag and drop this
+ script from your Inventory into the Contents tab of your AO HUD. If the
+ AO Link is compatible with your AO HUD, it will indicate so in the Chat.
+
+ NOTE: Please be aware that some shops sell modified GPL licensed ZHAOII
+ scripts in their AOs with closed permissions and without publishing the
+ source code anywhere. If your AO reports having successfully linked but
+ goes haywire chances are that this is such a case. A successful linking
+ is reported, but there are unknown modifications that may cause an error.
+ If this happens, the only thing you can do is to uninstall: /88 rm aolink
+
+------------------------------------------------------------------------------*/
 
 string g_sVersion = "4.7"; // keep this simple
 key g_kWearer;
